@@ -1,6 +1,6 @@
 # 🛍️ Juno Web Store Data Pipeline
 
-**Juno Web Store** is a data engineering project designed to extract, transform, and load product pricing data from Jumia, an ecommerce platform. Using Python and PostgreSQL, the project perfroms **static HTML scraping** from multiple pages of laptop listings, and loads the structured dataset into a relational database for further analysis. 
+**Juno Web Store** is a data engineering project designed to extract, transform, and load product pricing data from Jumia, an ecommerce platform. Using Python and PostgreSQL, the project performs **static HTML scraping** from multiple pages of laptop listings, and loads the structured dataset into a relational database for further analysis. 
 
 ---
 
