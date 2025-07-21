@@ -37,10 +37,11 @@ This project automates product data collection and builds a clean database pipel
 
 ### 2. Data Cleaning and Transformation
 
-- Stored extracted data into Python lists  
-- Combined lists into a pandas DataFrame  
+- Stored extracted data into Python lists
+- Structured the scraped data into a dictionary
+- Converted the dictionary into a pandas DataFrame  
 - Transposed and validated structure for database insertion  
-- Stripped whitespace and handled missing values
+- Replaced null entries in `former_price` with `'0'` and in `discount_percs` with `'0%'`
 
 ### 3. PostgreSQL Database Loading
 
@@ -65,7 +66,7 @@ This project automates product data collection and builds a clean database pipel
 
 ## 📝 Notes
   
-⏺ This scraping pipeline is built for **educational purposes**.
-⏺ Additional fields such as brand, rating, or product URLs can be added in future versions 
+⏺ This scraping pipeline is built for **educational purposes**  
+⏺ Additional fields such as brand, rating, or product URLs can be added in future versions  
 ⏺ Can be extended with Kafka for real-time data ingestion in streaming pipelines
 
